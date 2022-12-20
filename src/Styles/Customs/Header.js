@@ -15,6 +15,11 @@ export const Row = styled.div`
             height: 40px;
         }
     }
+    input::placeholder{
+        @media(max-width: 400px){
+            font-size: 12px;
+        }
+    }
     .icon{
         font-size: 35px;
         color: ${props => props.theme.iconColor};
